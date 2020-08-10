@@ -843,7 +843,7 @@ Our Classes
 
 #our-classes {
     margin-bottom: 140px;
-    height: 980px;
+    height: 970px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -1407,6 +1407,12 @@ responsive
     text-decoration: none;
     z-index: 2;
     color: #ffffff;
-    width: 10%;
+    width: 20%;
     height: 10%;
+    font-size: 190%;
+}
+
+.our-classes-button:hover{
+    background-color: #00695C;
+
 }
