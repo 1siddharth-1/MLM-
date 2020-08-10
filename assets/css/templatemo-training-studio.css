@@ -843,6 +843,7 @@ Our Classes
 
 #our-classes {
     margin-bottom: 140px;
+    height: 980px;
 }
 
 #tabs ul {
@@ -1379,6 +1380,7 @@ responsive
 
 #our-classes-mask2 {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     margin-top: 82px;
-    height: 980px;
 }
