@@ -848,6 +848,7 @@ Our Classes
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 #tabs ul {
@@ -1409,8 +1410,30 @@ responsive
     color: #ffffff;
     width: 20%;
     height: 10%;
-    font-size: 190%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
+
+@media screen and (max-width: 728px){
+    .our-classes-button{
+        width: 100%;
+    }
+
+    #our-classes-mask2{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #our-classes{
+        height: 900px;
+        width: 100%;
+    }
+}
+
 
 .our-classes-button:hover{
     background-color: #00695C;
