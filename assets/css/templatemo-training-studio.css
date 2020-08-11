@@ -724,11 +724,16 @@ banner
 .main-banner .caption {
     text-align: center;
     position: absolute;
-    width: 80%;
+    width: 90%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 475px){
+
+}
+
 
 .main-banner .caption h6 {
     margin-top: 0px;
@@ -1392,7 +1397,7 @@ responsive
 }
 
 .our-classes-overlay-color {
-    background-color: rgba(33, 37, 41, 0.8);
+    background-color: rgba(33, 37, 41, 0.7);
     object-fit: cover;
     position: absolute;
     margin-top: 82px;
