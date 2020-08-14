@@ -1131,7 +1131,7 @@ contact
 */
 
 #contact-us {
-    margin-top: 140px;
+    margin-top: 330px;
 }
 
 #contact-us .container-fluid .col-lg-6 {
@@ -1443,4 +1443,28 @@ responsive
 .our-classes-button:hover{
     background-color: #00695C;
 
+}
+
+.products_Image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    object-fit: cover;
+}
+
+#product_Div {
+    margin-top: 4%;
+}
+
+#Products {
+    margin-bottom: 80px;
+}
+
+.product_Head {
+    margin-top: 5%;
+    color: #092532;
+}
+
+#buynowButon {
+    margin-top: 40px;
 }
